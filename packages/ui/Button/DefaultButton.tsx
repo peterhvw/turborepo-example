@@ -12,7 +12,7 @@ export const DefaultButton = ({ size, isLoading = false, children }: ButtonProps
   return (
     <Button isLoading={isLoading} size={size}>
       {children}
-      <VStack>wefewwe</VStack>
+      <VStack>test</VStack>
       <div></div>
     </Button>
   );
