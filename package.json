@@ -15,7 +15,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "ci:version": "changeset version",
     "prettier:all": "prettier --write **/*.{js,json,md,html,ts,tsx} --ignore-unknown --no-error-on-unmatched-pattern",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "cz"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
