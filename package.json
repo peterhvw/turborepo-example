@@ -13,6 +13,7 @@
     "lint": "turbo run lint",
     "stylelint": "turbo run stylelint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "ci": "changeset",
     "ci:version": "changeset version",
     "prettier:all": "prettier --write **/*.{js,json,md,html,ts,tsx} --ignore-unknown --no-error-on-unmatched-pattern",
     "prepare": "husky install",
